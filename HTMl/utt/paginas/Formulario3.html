@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="../css/Proyecto.css">
+</head>
+<body>
+	<h1>Formulario</h1>
+	<h3>Victor Cañas</h3>
+	<form>
+		<fieldset>
+			<legend>LOGIN</legend>
+			<p>
+				<label for="user">Username:</label>
+				<input type="text" name="user" placeholder="Escribe username" size="30" required>
+			</p>
+			<p>
+				<label for="pass">Password:</label>
+				<input type="password" name="pass" placeholder="Escribe password" size="30" required>
+			</p>
+		</fieldset>
+		<p>
+			Escribe comentarios:<br>
+			<textarea name="comentarios" cols="50" rows="5" placeholder="Escribe aqui..."></textarea>
+		</p>
+		<p>
+			Selecciona tu genero favorito: <br>
+			<input type="radio" name="gene" value="rock">Rock <br>
+			<input type="radio" name="gene" value="jazz" checked="">Jazz <br>
+			<input type="radio" name="gene" value="pop">Pop <br>
+
+		</p>
+		<p>
+			Selecciona tus pasatiempos: <br>
+			<input type="checkbox" name="pasa" value="tele">Television 
+			<input type="checkbox" name="pasa" value="libros">Libros 
+			<input type="checkbox" name="pasa" value="videoj">Videojuegos 
+			<input type="checkbox" name="pasa" value="deportes">Deportes 
+			<input type="checkbox" name="pasa" value="musica">Musica 
+		</p>
+		<p>
+			Selecciona:
+			<select name="opciones" multiple>
+				<option value="virgo">Shaka</option>
+				<option value="geminis">Saga</option>
+				<option value="capricornio">Shura</option>
+				<option value="camus">Acuario</option>
+			</select>
+		</p>
+		<p>
+			Selecciona: <input type="file" name="archivo">
+		</p>
+		<p>
+			Selecciona fecha: <input type="date" name="fecha">
+		</p>
+		<p>
+			Correo: <input type="email" name="correo" placeholder="Email">
+		</p>
+		<p>
+			<input type="submit" name="boton" value="enviar">
+		</p>
+	</form>
+</body>
+</html>

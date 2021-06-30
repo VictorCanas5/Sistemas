@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>tablas combinadas</title>
+
+</head>
+<body>
+	<div style="width: 80%; margin: auto;">
+		<h3>Victor Cañas</h3>
+
+		<a href="../inicio.html">Inicio</a>
+		<h1>Tablas combinadas</h1>
+		<hr><br>
+		<table border="1" class="table2">
+			<caption>Tabla combinada Columnas</caption>
+			<thead>
+				<tr>
+					<th>Columna 1</th>
+					<th>Columna 2</th>
+					<th>Columna 3</th>
+					<th>Columna 4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="2">Dato 1</td>
+					<td colspan="2">Dato 2</td>
+				</tr>
+				<tr>
+					<td colspan="3">Dato 3</td>
+					<td>Dato 4</td>
+				</tr>
+				<tr>
+					<td colspan="4">Dato 5</td>
+
+				</tr>
+			</tbody>
+		</table>
+		<br><br>
+		<table border="1" class="table2">
+			<caption>Tabla combinada Filas</caption>
+			<thead>
+				<tr>
+					<th>Columna1</th>
+					<th>Columna2</th>
+					<th>Columna3</th>
+					<th>Columna4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">Dato 1</td>
+					<td>Dato 2</td>
+					<td rowspan="2">Dato 3</td>
+					<td>Dato 4</td>
+				</tr>
+				<tr>
+					<td>Dato 5</td>
+					<td>Dato 6</td>
+				</tr>
+			</tbody>
+		</table> <br><br>
+		<table border="1">
+			<caption>Uso de colspan</caption>
+			<tr>
+				<th>Columna1</th>
+				<th>Columna2</th>
+				<th>Columna3</th>
+			</tr>
+			<tr>
+				<td colspan="2">Dato 1</td>
+				<td>Dato 2</td>
+			</tr>
+			<tr>
+				<td>Dato 3</td>
+				<td colspan="2">Dato 4</td>
+			</tr>
+			<tr>
+				<td colspan="3">Dato 5</td>
+			</tr>
+
+
+		</table> <br><br>
+		<table border="1">
+			<caption>Uso de rowspan</caption>
+			<tr>
+				<th>Columna1</th>
+				<th>Columna2</th>
+				<th>Columna3</th>
+			</tr>
+			<tr>
+				<td rowspan="2">Dato 1</td>
+				<td>Dato 2</td>
+				<td rowspan="2">Dato 3</td>
+			</tr>
+			<tr>
+				<td>Dato 4</td>
+			</tr>
+			<tr>
+				<td colspan="2">Dato 5</td>
+				<td rowspan="2">Dato 6</td>
+
+			</tr>
+			<tr>
+				<td>Dato 7</td>
+				<td>Dato 8</td>
+			</tr>
+			<tr>
+				<td colspan="2"; rowspan="2">Dato 9</td>
+				<td>Dato 10</td>
+			</tr>
+			<tr>
+				<td>Dato 11</td>
+			</tr>
+		</table>
+		<!--Ejercicio de clase-->
+		<h1>Fusion de columnas</h1>
+		<table border="1" width="10%";>
+			
+			<tr>
+				<td colspan="3">A</td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td colspan="2">D</td>
+				<td>E</td>
+			</tr>
+			<tr>
+				<td colspan="4">F</td>
+			</tr>
+			<tr>
+				<td>G</td>
+				<td>H</td>
+				<td>I</td>
+				<td>J</td>
+			</tr>
+			
+		</table> <br><br>
+		<h1>Fusion de filas</h1>
+		<table border="1" width="10%">
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td rowspan="3">C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td rowspan="2">E</td>
+				<td>F</td>
+				<td rowspan="3">G</td>
+			</tr>
+			<tr>
+				<td>H</td>
+			
+			</tr>
+			<tr>
+				<td>I</td>
+				<td>J</td>
+				<td>K</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
